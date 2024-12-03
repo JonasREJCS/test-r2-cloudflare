@@ -1,0 +1,26 @@
+{
+  "name": "test-r2-cloudflare",
+  "version": "1.0.0",
+  "main": "src/http/index.ts",
+  "scripts": {
+    "start": "ts-node src/http/index.ts",
+    "dev": "nodemon src/http/index.ts",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.703.0",
+    "@aws-sdk/s3-request-presigner": "^3.703.0",
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "ts-node": "^10.9.2"
+  }
+}
